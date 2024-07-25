@@ -1,0 +1,321 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: arial;
+}
+
+.dashboard {
+  display: flex;
+  margin-left: 50px;
+  margin-top: 15px;
+}
+
+/*side bar*/
+.sideBar {
+  background-color: rgb(50, 53, 51);
+  color: #F3F4EE;
+  font-size: 25px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  row-gap: 40px;
+  width: 80px;
+
+  padding-top: 20px;
+  padding-bottom: 20px;
+  border-radius: 15px;
+
+  box-shadow: 10px 10px 20px rgba(27, 26, 26, 0.418);
+}
+
+.logo {
+  margin-bottom: 70px;
+  cursor: pointer;
+}
+
+.botao-sair {
+  margin-top: 90px;
+}
+
+button {
+  background: none;
+  border: none;
+}
+
+/*coluna 1*/
+.coluna-um {
+  display: block;
+  margin-left: 40px;
+  margin-top: 15px;
+}
+
+.introducao {
+  background-color: #F3F4EE;
+  border-radius: 15px;
+  display: flex;
+  box-sizing: border-box;
+  width: 500px;
+  text-align: left;
+  align-items: center;
+  padding-left: 30px;
+}
+
+.texto-intro h1 {
+  font-size: 30px;
+}
+
+.texto-intro {
+  margin-right: 115px;
+}
+
+/*idiomas*/
+.idiomas {
+  display: grid;
+}
+
+.idiomas-ingles,
+.idiomas-frances {
+  display: flex;
+  background-color: #F3F4EE;
+  border-radius: 15px;
+  box-sizing: border-box;
+  width: 500px;
+  text-align: left;
+  align-items: center;
+  margin-top: 20px;
+  padding: 30px;
+}
+
+.icon-img {
+  width: 30px;
+  margin-right: 10px;
+  align-items: center;
+}
+
+.titulo-e-subtitulo-idioma {
+  width: 250px;
+  margin-right: 40px;
+}
+
+.titulo-e-subtitulo-idioma p {
+  font-size: 12px;
+}
+
+.botao-continuacao {
+  background-color: rgb(50, 53, 51);
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-right: 20px;
+  padding-left: 20px;
+  border-radius: 10px;
+  color: #F3F4EE;
+}
+
+/*cursos*/
+.cursos h2 {
+  margin-top: 20px;
+  margin-left: 5px;
+}
+
+.curso-um,
+.curso-dois {
+  display: flex;
+  background-color: #F3F4EE;
+  border-radius: 15px;
+  box-sizing: border-box;
+  width: 500px;
+  text-align: left;
+  align-items: center;
+  margin-top: 20px;
+  padding: 30px;
+}
+
+.img-curso {
+  width: 30px;
+  margin-right: 10px;
+  align-items: center;
+}
+
+.titulo-e-subtitulo {
+  width: 250px;
+  margin-right: 40px;
+}
+
+.titulo-e-subtitulo p {
+  font-size: 12px;
+}
+
+.botao-ver-curso {
+  background-color: rgb(50, 53, 51);
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-right: 20px;
+  padding-left: 20px;
+  border-radius: 10px;
+  color: #F3F4EE;
+}
+
+/*coluna dois*/
+.coluna-dois {
+  margin-left: 60px;
+  margin-top: 15px;
+}
+
+/*barra de pesquisa*/
+.pesquisa-barra {
+  display: flex;
+}
+
+.barra-de-pesquisa-div {
+  background-color: #F3F4EE;
+  padding: 10px;
+  border-radius: 15px;
+  width: 500px;
+  box-sizing: border-box;
+}
+
+.barra-de-pesquisa {
+  background-color: #F3F4EE;
+  border: none;
+  padding: 10px;
+  margin-top: 0;
+  margin-left: 10px;
+  width: 400px;
+}
+
+.notificacoes {
+  margin-left: 30px;
+  background-color: #F3F4EE;
+  padding-right: 20px;
+  padding-left: 20px;
+  border-radius: 15px;
+
+}
+
+.perfil-img {
+  margin-left: 30px;
+  height: 63px;
+  align-self: center;
+  border-radius: 15px;
+}
+
+/*barra de cursos status*/
+
+.cursos-status {
+  width: 690px;
+  box-sizing: border-box;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  display: flex;
+}
+
+.cursos-status h1 {
+  font-size: 40px;
+}
+
+.cursos-completos {
+  text-align: center;
+  background-color: #F3F4EE;
+  padding-right: 20px;
+  padding-left: 20px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border-radius: 15px;
+  margin-right: 46.2px;
+}
+
+.cursos-em-progresso {
+  text-align: center;
+  background-color: #F3F4EE;
+  padding-right: 20px;
+  padding-left: 20px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border-radius: 15px;
+  margin-right: 46.2px;
+}
+
+.cursos-cancelados {
+  text-align: center;
+  background-color: #F3F4EE;
+  padding-right: 20px;
+  padding-left: 20px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border-radius: 15px;
+  margin-right: 46.1px;
+}
+
+.cursos-desejados {
+  text-align: center;
+  background-color: #F3F4EE;
+  padding-right: 20px;
+  padding-left: 20px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border-radius: 15px;
+}
+
+/*estatísticas*/
+.cursos-estatisticas{
+  margin-left: 5px;
+}
+
+.grafico{
+  width: 690px;
+  height: 200px;
+  border-radius: 15px;
+  margin-top: 10px;
+  margin-bottom: 30px;
+}
+
+/*recadinho*/
+.recadinho{
+  display: flex;
+  width: 690px;
+  box-sizing: border-box;
+  border-radius: 15px;
+  padding: 20px;
+  background-color: #F3F4EE;
+  align-items: center;
+}
+
+.recadinho-texto{
+  width: 330px;
+  margin-right: 230px;
+
+}
+
+.botao-premium{
+  background-color: rgb(50, 53, 51);
+  color: rgb(238, 232, 232);
+  margin-top: 10px;
+  border-radius: 10px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+/*elementos e hover*/
+button:hover{
+  opacity: 0.8;
+}
+
+
+.logo:hover, 
+.introducao:hover, 
+.idiomas-ingles:hover, 
+.idiomas-frances:hover, 
+.curso-um:hover, 
+.curso-dois:hover, 
+.barra-de-pesquisa-div:hover, 
+.notificacoes:hover, 
+.cursos-completos:hover, 
+.cursos-em-progresso:hover, 
+.cursos-cancelados:hover, 
+.cursos-desejados:hover, 
+.grafico:hover, 
+.recadinho:hover{
+  opacity: 0.6;
+}
